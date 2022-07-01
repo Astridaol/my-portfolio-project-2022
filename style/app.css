@@ -1,3 +1,31 @@
+:root {
+  --primary-color: yellow;
+  --primary-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "Anton", sans-serif;
+  --tertiary-font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: gray;
+}
+
 h1 {
   font-size: 50px;
+  color: var(--primary-color);
+  font-family: var(--primary-font-family);
+}
+
+h3 {
+  font-size: 150px;
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.fa-3x,
+p {
+  text-align: center;
+  color: white;
 }
