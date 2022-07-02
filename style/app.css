@@ -24,7 +24,7 @@ h4 {
 
 h3 {
   position: relative;
-  font-size: 280px;
+  font-size: 231px;
   color: white;
   font-family: var(--secondary-font-family);
   opacity: 25%;
@@ -37,29 +37,33 @@ h4 {
   font-size: 20px;
 }
 
-.container {
-  padding: 300px 10px;
-}
-
-.col-6 {
-  justify-content: space-evenly;
+.container-hero {
+  padding: 250px 150px;
 }
 
 /*Tentative*/
-.fa-solid,
-.fa-a .brandingImage {
-  color: black;
-  font-size: 280px;
-}
 
-.fa-3x,
-p {
-  text-align: center;
-  color: white;
-}
+@media (max-width: 1350px) {
+  h1,
+  h2 {
+    font-size: 20px;
+  }
 
-@media (max-width: 750px) {
-  h1 {
-    color: red;
+  h4 {
+    font-size: 10px;
+  }
+
+  h3 {
+    top: 50px;
+    font-size: 150px;
+  }
+
+  .container-hero {
+    padding: 150px 25px;
+    text-align: center;
+  }
+
+  .branding-image img {
+    padding: 150px;
   }
 }
