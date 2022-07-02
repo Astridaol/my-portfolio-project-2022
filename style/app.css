@@ -24,11 +24,11 @@ h4 {
 
 h3 {
   position: relative;
-  font-size: 231px;
+  font-size: 240px;
   color: white;
   font-family: var(--secondary-font-family);
   opacity: 25%;
-  margin-top: -200px;
+  margin-top: -220px;
   margin-left: -20px;
   z-index: -50;
 }
@@ -38,12 +38,12 @@ h4 {
 }
 
 .container-hero {
-  padding: 250px 150px;
+  padding: 300px 10px;
 }
 
 /*Tentative*/
 
-@media (max-width: 1350px) {
+@media (max-width: 750px) {
   h1,
   h2 {
     font-size: 20px;
@@ -54,16 +54,11 @@ h4 {
   }
 
   h3 {
-    top: 50px;
+    top: 100px;
     font-size: 150px;
   }
 
   .container-hero {
-    padding: 150px 25px;
-    text-align: center;
-  }
-
-  .branding-image img {
-    padding: 150px;
+    padding: 200px 25px;
   }
 }
