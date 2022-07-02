@@ -22,26 +22,46 @@ h4 {
   font-weight: bolder;
 }
 
-h3 {
-  position: relative;
-  font-size: 240px;
-  color: white;
-  font-family: var(--secondary-font-family);
-  opacity: 25%;
-  margin-top: -220px;
-  margin-left: -20px;
-  z-index: -50;
-}
-
 h4 {
   font-size: 20px;
+}
+
+h3 {
+  position: relative;
+  color: white;
+  font-size: 240px;
+  font-family: var(--secondary-font-family);
+  opacity: 25%;
+}
+
+#heroText {
+  z-index: -50;
+  margin-top: -220px;
+  margin-left: -20px;
+}
+
+#projectText {
+  font-size: 200px;
+  text-align: center;
+}
+
+#projectSubtitle {
+  font-size: 65px;
+  position: relative;
+  text-align: center;
+  margin-top: -155px;
 }
 
 .container-hero {
   padding: 300px 10px;
 }
 
-/*Tentative*/
+.container-projects {
+  background: #c9c7c7;
+  padding: 150px 10px;
+}
+
+/*Responsive*/
 
 @media (max-width: 750px) {
   h1,
@@ -60,5 +80,17 @@ h4 {
 
   .container-hero {
     padding: 200px 25px;
+  }
+
+  #projectText {
+    top: -50px;
+    font-size: 90px;
+    text-align: end;
+  }
+
+  #projectSubtitle {
+    font-size: 25px;
+    margin-top: -120px;
+    margin-left: 150px;
   }
 }
