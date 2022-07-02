@@ -61,6 +61,13 @@ h3 {
   padding: 110px 10px;
 }
 
+.projecttittle {
+  margin-top: -100px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 /*Responsive*/
 
 @media (max-width: 750px) {
