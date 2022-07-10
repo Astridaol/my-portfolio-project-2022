@@ -40,6 +40,10 @@ p,
 .projecttittle {
   color: aliceblue;
 }
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 #heroText {
   z-index: -50;
@@ -75,13 +79,19 @@ p,
 
 .contactlink,
 .homelink {
-  margin-left: 50px;
   background: var(--primary-color);
   color: white;
   padding: 20px 15px;
   border-radius: 4px;
   text-decoration: none;
   top: 100px !important;
+}
+
+.homelink {
+  margin-left: 50px;
+}
+.contactlink {
+  margin-left: 58px;
 }
 
 a {
@@ -96,12 +106,15 @@ a:hover {
 }
 
 .container-projects {
-  background: var(--tertiary-color);
   padding: 110px 10px;
 }
 
+#projects {
+  background-color: var(--tertiary-color);
+}
+
 .projecttittle {
-  margin-top: -100px;
+  padding: 25px;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
@@ -112,7 +125,7 @@ a:hover {
 }
 
 #codedby {
-  background: black;
+  background: var(--tertiary-color);
   color: white;
   text-align: center;
   padding: 25px 0;
@@ -154,21 +167,49 @@ a:hover {
   padding: 5px;
 }
 
+/*Responsive Ipads*/
+
+@media (max-width: 1250px) {
+  #heroText,
+  #saytext {
+    top: 5px;
+    font-size: 280px;
+  }
+
+  #projects,
+  footer,
+  .container-contact {
+    margin-right: -100px;
+  }
+
+  #saytext {
+    font-size: 200px;
+  }
+  .branding-image {
+    margin-top: -215px;
+  }
+
+  .homelink,
+  .contactlink {
+    display: inline-flex;
+  }
+}
+
 /*Responsive*/
 
 @media (max-width: 750px) {
   h1,
   h2 {
-    font-size: 20px;
+    font-size: 35px;
   }
 
   h4 {
-    font-size: 10px;
+    font-size: 20px;
   }
 
-  h3 {
-    top: 100px;
-    font-size: 150px;
+  #heroText {
+    top: 50px;
+    font-size: 200px;
   }
 
   .container-hero {
@@ -182,8 +223,8 @@ a:hover {
   }
 
   #projectSubtitle {
-    font-size: 25px;
-    margin-top: -120px;
+    font-size: 50px;
+    margin-top: -140px;
     margin-left: 150px;
   }
 
@@ -218,5 +259,11 @@ a:hover {
 
   .finalbranding {
     padding: 25px;
+  }
+
+  .homelink,
+  .contactlink {
+    display: block;
+    margin: 0 auto;
   }
 }
