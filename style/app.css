@@ -113,7 +113,8 @@ a {
 a:hover {
   color: white;
 }
-.container-hero {
+.container-hero,
+.container-about {
   padding: 380px 10px 250px;
 }
 
@@ -182,6 +183,22 @@ a:hover {
 
 #link:hover {
   background: var(--fun-color);
+}
+
+/*About Page*/
+
+#aboutphoto {
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: 350px;
+}
+
+.col-white {
+  color: white;
+}
+
+.fa-brands {
+  font-size: 80px;
 }
 
 /*Responsive Ipads*/
