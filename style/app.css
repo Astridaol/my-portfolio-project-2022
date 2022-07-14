@@ -228,6 +228,13 @@ a:hover {
 .RS {
   margin-top: 100px;
 }
+
+#GetInTouch {
+  font-size: 200px;
+  text-align: center;
+  margin-top: 10px;
+}
+
 /*Responsive Ipads*/
 
 @media (max-width: 1250px) {
