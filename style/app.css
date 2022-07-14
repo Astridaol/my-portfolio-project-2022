@@ -197,10 +197,37 @@ a:hover {
   color: white;
 }
 
-.fa-brands {
+.fa-brands,
+.fa-solid {
   font-size: 80px;
 }
 
+#checktext {
+  margin-top: -90px;
+  z-index: -50;
+  font-size: 150px;
+}
+
+#movingtexttwo {
+  margin-top: -130px;
+  margin-left: 35px;
+  font-size: 50px;
+  z-index: 1000;
+  color: white;
+}
+
+.container-contactme {
+  background: #682fa5;
+  padding: 110px 10px;
+}
+
+.secondpagecontact {
+  margin-top: 135px;
+}
+
+.RS {
+  margin-top: 100px;
+}
 /*Responsive Ipads*/
 
 @media (max-width: 1250px) {
