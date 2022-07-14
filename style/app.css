@@ -216,6 +216,15 @@ a:hover {
   color: white;
 }
 
+#AO {
+  font-size: 65px;
+  position: relative;
+  text-align: center;
+  margin-top: -250px;
+  margin-left: 150px;
+  color: var(--primary-color);
+}
+
 .container-contactme {
   background: #682fa5;
   padding: 110px 10px;
@@ -233,6 +242,27 @@ a:hover {
   font-size: 200px;
   text-align: center;
   margin-top: 10px;
+}
+
+#GITSubtitle {
+  font-size: 65px;
+  position: relative;
+  text-align: center;
+  margin-top: -155px;
+  color: white;
+}
+
+#undecided {
+  text-align: center;
+  font-size: 65px;
+  padding: 25px;
+}
+
+#heroText2 {
+  z-index: -50;
+  font-size: 350px;
+  margin-top: -280px;
+  margin-left: -20px;
 }
 
 /*Responsive Ipads*/
@@ -261,8 +291,32 @@ a:hover {
   .contactlink {
     display: inline-flex;
   }
+
+  #heroText2 {
+    font-size: 240px;
+    margin-left: 5px;
+  }
+
+  #AO {
+    margin-top: -100px;
+    margin-left: 10px;
+    font-size: 50px;
+  }
+
+  #aboutme {
+    margin-top: 50px;
+    font-size: 15px;
+  }
+
+  #GITSubtitle {
+    font-size: 60px;
+    margin-top: -280px;
+    margin-left: 130px;
+  }
 }
 
+#contactinfo {
+}
 /*Responsive*/
 
 @media (max-width: 750px) {
@@ -275,16 +329,41 @@ a:hover {
     font-size: 19px;
   }
 
+  #undecided {
+    font-size: 35px;
+  }
+
   #heroText {
     top: 50px;
     font-size: 200px;
+  }
+
+  #heroText2 {
+    font-size: 130px;
+    margin-left: 5px;
+  }
+
+  #AO {
+    margin-top: -100px;
+    margin-left: -10px;
+    font-size: 35px;
+  }
+
+  #aboutme {
+    margin-top: -60px;
+    padding-bottom: 10px;
+  }
+  .fa-brands,
+  .fa-solid {
+    font-size: 60px;
   }
 
   .container-hero {
     padding: 200px 25px;
   }
 
-  #projectText {
+  #projectText,
+  #GetInTouch {
     top: -50px;
     font-size: 90px;
     text-align: end;
@@ -294,6 +373,12 @@ a:hover {
     font-size: 50px;
     margin-top: -140px;
     margin-left: 150px;
+  }
+
+  #GITSubtitle {
+    font-size: 50px;
+    margin-top: -200px;
+    margin-left: 130px;
   }
 
   #saytext {
