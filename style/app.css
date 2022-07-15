@@ -278,12 +278,12 @@ a:hover {
   #heroText,
   #saytext {
     top: 5px;
-    font-size: 280px;
+    font-size: 178px;
   }
 
   #projects,
   .container-contact {
-    margin-right: -100px;
+    margin-right: 1px;
   }
 
   #saytext {
@@ -344,7 +344,7 @@ a:hover {
 
   #heroText {
     top: 50px;
-    font-size: 200px;
+    font-size: 178px;
   }
 
   #heroText2 {
