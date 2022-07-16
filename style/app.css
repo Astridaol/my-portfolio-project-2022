@@ -274,11 +274,11 @@ a:hover {
 
 /*Responsive Ipads*/
 
-@media (max-width: 1250px) {
+@media (max-width: 1280px) {
   #heroText,
   #saytext {
     top: 5px;
-    font-size: 178px;
+    font-size: 180px;
   }
 
   #projects,
@@ -299,12 +299,16 @@ a:hover {
   }
 
   #heroText2 {
-    font-size: 240px;
+    font-size: 200px;
     margin-left: 5px;
   }
 
+  #GetInTouch {
+    font-size: 100px;
+  }
+
   #AO {
-    margin-top: -100px;
+    margin-top: -150px;
     margin-left: 10px;
     font-size: 50px;
   }
@@ -315,9 +319,9 @@ a:hover {
   }
 
   #GITSubtitle {
-    font-size: 60px;
-    margin-top: -280px;
-    margin-left: 130px;
+    font-size: 50px;
+    margin-top: -90px;
+    margin-left: 5px;
   }
 }
 
@@ -374,20 +378,20 @@ a:hover {
   #projectText,
   #GetInTouch {
     top: -50px;
-    font-size: 90px;
+    font-size: 80px;
     text-align: end;
   }
 
   #projectSubtitle {
-    font-size: 50px;
-    margin-top: -140px;
-    margin-left: 150px;
+    font-size: 40px;
+    margin-top: -130px;
+    margin-left: 230px;
   }
 
   #GITSubtitle {
-    font-size: 50px;
-    margin-top: -200px;
-    margin-left: 130px;
+    font-size: 40px;
+    margin-top: -130px;
+    margin-left: 5px;
   }
 
   #saytext {
@@ -427,5 +431,25 @@ a:hover {
   .contactlink {
     display: block;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 418px) {
+  #projectText,
+  #GetInTouch {
+    top: -50px;
+    font-size: 80px;
+    text-align: end;
+  }
+
+  #GITSubtitle {
+    font-size: 40px;
+    margin-top: -180px;
+    margin-left: 160px;
+  }
+  #projectSubtitle {
+    font-size: 30px;
+    margin-top: -120px;
+    margin-left: 100px;
   }
 }
