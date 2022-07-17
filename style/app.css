@@ -444,12 +444,16 @@ a:hover {
 
   #GITSubtitle {
     font-size: 40px;
-    margin-top: -180px;
-    margin-left: 160px;
+    margin-top: -127px;
+    margin-left: 9px;
   }
   #projectSubtitle {
     font-size: 30px;
     margin-top: -120px;
     margin-left: 100px;
+  }
+
+  #AO {
+    margin-left: -50px;
   }
 }
